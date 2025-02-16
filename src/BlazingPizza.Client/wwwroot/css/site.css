@@ -899,7 +899,7 @@ input[type=range] {
 
     .alto-contraste .main {
         background: black;
-        color: white;
+        color: black;
     }
 
     .alto-contraste .nav-tab {

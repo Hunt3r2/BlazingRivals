@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+
+<div class="top-bar">
+    <a class="logo" href="">
+        <img src="img/rivals.svg" />
+    </a>
+
+    <NavLink href="" class="nav-tab" Match="NavLinkMatch.All">
+        <!--cambié el icono-->
+        <img src="img/carrito.svg" />
+        <div>Comprar personajes</div>
+    </NavLink>
+
+    <AuthorizeView>
+        <NavLink href="myorders" class="nav-tab">
+            <img src="img/bici.svg" />
+            <div>Mis pedidos</div>
+        </NavLink>
+    </AuthorizeView>
+
+    <LoginDisplay />
+</div>
+
+<div class="content">
+    @Body
+</div>
